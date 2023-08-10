@@ -5,6 +5,8 @@ import {
     web,
     javascript,
     typescript,
+    java,
+    springboot,
     html,
     css,
     reactjs,
@@ -17,11 +19,14 @@ import {
     docker,
     GFEA,
     gaTech,
+    husky,
     meta,
     starbucks,
     tesla,
     shopify,
     todolist,
+    tindog,
+    portfolio,
     carrent,
     jobit,
     tripguide,
@@ -57,12 +62,20 @@ import {
       icon: backend,
     },
     {
-      title: "Game Developer",
+      title: "UI Designer",
       icon: creator,
     },
   ];
   
   const technologies = [
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Spring Boot",
+      icon: springboot,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -82,10 +95,6 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -108,10 +117,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -119,16 +124,15 @@ import {
   
   const experiences = [
     {
-      title: "Master's of Science in Computer Science",
-      company_name: "Georgia Institute of Technology",
+      title: "Georgia Institute of Technology",
+      company_name: "MS in Computer Science",
       icon: gaTech,
       iconBg: "#E6DEDD",
       date: "Aug 2022 - (Expected) Dec 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Achieved and maintained a perfect GPA, while also actively participating in collaborative projects with peers.",
+        "Coursework: Data Structure & Algorithm, Object Oriented Programming, Human Computer Interact, Software Development Process, Information Security, Machine Learning",
+        "Hobby: Tennis, Video Game, Boardgame"
       ],
     },
     {
@@ -138,31 +142,17 @@ import {
       iconBg: "#383E56",
       date: "Sep 2020 - May 2021",
       points: [
-        "Utilized SQL to construct a comprehensive database from scratch, enabling efficient data storage.",
-        "Implemented a data collection system using Python, leading to a 20% reduction in marketing costs.",
-        "Conducted data visualization and generated insightful reports to communicate analysis findings to stakeholders, facilitating a deeper understanding of marketing trends and opportunities.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked with financial manager who gave pay-to-listen lectures, resulting in ~ $10,000 per lecture, focused on creating KPI metadata reports for conversion pipelines to increase revenue.",
+        "Created Python script that consumed CSVs from survey data from attendees, along with show/no show metrics, to ultimately aggregate data, identify trends, and store in a SQLite database.",
+        "Direct efforts resulted in 20% reduction in marketing costs while maintaining same level of revenue, in addition to being able to identify the performance of restarting lectures post COVID.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "University of Washington",
+      company_name: "BS in Economics",
+      icon: husky,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2016 - Mar 2020",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -175,7 +165,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "Future Testimonials",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -183,7 +173,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Future Testimonials",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -191,7 +181,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Future Testimonials",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -201,53 +191,9 @@ import {
   
   const projects = [
     {
-      name: "To Do List",
+      name: "3D Portfolio Website",
       description:
-        "Web-based application that allows users to create and manage their to do lists for various purposes. Note that the deployed website might take up to one minute to load. Database is recorded. Leave a message :)",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: todolist,
-      source_code_link: "https://github.com/safifis/ToDoList",
-      deployed_link: "https://todolist-jk4a.onrender.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      deployed_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This mobile friendly website has been crafted utilizing React and Tailwind CSS, with the incorporation of Three.js for the implementation of 3D graphics. Explore the models by simply swiping through them. ",
       tags: [
         {
           name: "nextjs",
@@ -262,9 +208,53 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      deployed_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/safifis/Portfolio",
+      deployed_link: "http://localhost:5173/",
+    },
+    {
+      name: "To Do List",
+      description:
+        "Full Stack application that allows users to create and manage their to do lists for various purposes. Note that the deployed website might take up to one minute to load. Database is recorded. Leave a message :)",
+      tags: [
+        {
+          name: "mongodb",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "render",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EJS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todolist,
+      source_code_link: "https://github.com/safifis/ToDoList",
+      deployed_link: "https://todolist-jk4a.onrender.com/",
+    },
+    {
+      name: "TinDog",
+      description:
+        "Tinder for dogs! Front-end web design using Bootstrap. Developed with mobile-friendly user interface. If you think the design is great, leave a message below in contact section to reach out!",
+      tags: [
+        {
+          name: "BootStrap",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tindog,
+      source_code_link: "https://github.com/safifis/TinDog",
+      deployed_link: "https://safifis.github.io/TinDog/",
     },
   ];
   

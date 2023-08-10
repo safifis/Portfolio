@@ -8,6 +8,8 @@ import webicon from "./webicon.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import java from "./tech/java.png";
+import springboot from "./tech/springboot.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -24,12 +26,15 @@ import threejs from "./tech/threejs.svg";
 
 import GFEA from "./company/GFEA.jpg"
 import gaTech from "./company/gaTech.png"
+import husky from "./company/husky.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import todolist from "./todolist.png";
+import tindog from "./tindog.png";
+import portfolio from "./portfolio.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -43,6 +48,8 @@ export {
   github,
   menu,
   close,
+  java,
+  springboot,
   css,
   docker,
   figma,
@@ -57,6 +64,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  husky,
   GFEA,
   gaTech,
   meta,
@@ -64,6 +72,8 @@ export {
   starbucks,
   tesla,
   todolist,
+  tindog,
+  portfolio,
   carrent,
   jobit,
   tripguide,
