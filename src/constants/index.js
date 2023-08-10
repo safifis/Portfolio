@@ -15,10 +15,13 @@ import {
     git,
     figma,
     docker,
+    GFEA,
+    gaTech,
     meta,
     starbucks,
     tesla,
     shopify,
+    todolist,
     carrent,
     jobit,
     tripguide,
@@ -32,7 +35,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
     },
     {
       id: "contact",
@@ -46,7 +49,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "App Developer",
       icon: mobile,
     },
     {
@@ -54,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Game Developer",
       icon: creator,
     },
   ];
@@ -116,11 +119,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Master's of Science in Computer Science",
+      company_name: "Georgia Institute of Technology",
+      icon: gaTech,
+      iconBg: "#E6DEDD",
+      date: "Aug 2022 - (Expected) Dec 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,15 +132,15 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Data Analyst",
+      company_name: "Golden Financial Exploration Association",
+      icon: GFEA,
+      iconBg: "#383E56",
+      date: "Sep 2020 - May 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Utilized SQL to construct a comprehensive database from scratch, enabling efficient data storage.",
+        "Implemented a data collection system using Python, leading to a 20% reduction in marketing costs.",
+        "Conducted data visualization and generated insightful reports to communicate analysis findings to stakeholders, facilitating a deeper understanding of marketing trends and opportunities.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -198,9 +201,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "To Do List",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based application that allows users to create and manage their to do lists for various purposes. Note that the deployed website might take up to one minute to load. Database is recorded. Leave a message :)",
       tags: [
         {
           name: "react",
@@ -215,8 +218,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: todolist,
+      source_code_link: "https://github.com/safifis/ToDoList",
+      deployed_link: "https://todolist-jk4a.onrender.com/",
     },
     {
       name: "Job IT",
@@ -238,6 +242,7 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      deployed_link: "https://github.com/",
     },
     {
       name: "Trip Guide",
@@ -259,6 +264,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      deployed_link: "https://github.com/",
     },
   ];
   
