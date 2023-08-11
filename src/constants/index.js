@@ -165,11 +165,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Future Testimonials",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I've never thought about publishing our report on a beautiful website. Thanks to Feifei for building the platform!",
+      name: "Zhening Zhang",
+      designation: "Data Scientist",
+      company: "New York Life Insurance",
+      image: "https://media.licdn.com/dms/image/D5635AQHpPwzhiKc_BA/profile-framedphoto-shrink_200_200/0/1687993194997?e=1692320400&v=beta&t=CGrS580WDnJRpw3-H8HxmPpmvG4Biil213VwsQ3DsJc",
     },
     {
       testimonial:
