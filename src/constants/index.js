@@ -173,18 +173,18 @@ import {
     },
     {
       testimonial:
-      "Future Testimonials",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Many thanks to Feifei for helping our research team technically! We really appreciate that she always accomplishes in a timely manner.",
+      name: "Zhanmo Ni",
+      designation: "Bioinformatician",
+      company: "Johns Hopkins University",
+      image: "https://media.licdn.com/dms/image/C5103AQFus08Stx1_mA/profile-displayphoto-shrink_200_200/0/1535677477802?e=1697673600&v=beta&t=CRfaNnfOPdvjdvWMOXDSG59hZqXt-R51nfqQJ_OY9Oo",
     },
     {
       testimonial:
       "Future Testimonials",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+      name: "Future collaborators",
+      designation: "Someone",
+      company: "Company",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -210,7 +210,7 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/safifis/Portfolio",
-      deployed_link: "http://localhost:5173/",
+      deployed_link: "https://portfolio-z4ex.onrender.com/",
     },
     {
       name: "To Do List",
@@ -255,6 +255,28 @@ import {
       image: tindog,
       source_code_link: "https://github.com/safifis/TinDog",
       deployed_link: "https://safifis.github.io/TinDog/",
+    },
+        {
+      name: "Kickwise",
+      description:
+        "Checkout this article about data analysis on expected goals in soccar! Static Web page implemented with HTML, CSS, and BootStrap.",
+      tags: [
+        {
+          name: "BootStrap",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tindog,
+      source_code_link: "https://github.com/safifis/Druid",
+      deployed_link: "https://safifis.github.io/Druid/",
     },
   ];
   
