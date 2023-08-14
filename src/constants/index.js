@@ -27,6 +27,7 @@ import {
     todolist,
     tindog,
     portfolio,
+    kickwise,
     carrent,
     jobit,
     tripguide,
@@ -257,7 +258,7 @@ import {
       deployed_link: "https://safifis.github.io/TinDog/",
     },
         {
-      name: "Kickwise",
+      name: "KickWise",
       description:
         "Checkout this article about data analysis on expected goals in soccar! Static Web page implemented with HTML, CSS, and BootStrap.",
       tags: [
@@ -274,7 +275,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tindog,
+      image: kickwise,
       source_code_link: "https://github.com/safifis/Druid",
       deployed_link: "https://safifis.github.io/Druid/",
     },

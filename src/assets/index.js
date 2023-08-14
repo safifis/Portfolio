@@ -34,7 +34,8 @@ import tesla from "./company/tesla.png";
 
 import todolist from "./todolist.png";
 import tindog from "./tindog.png";
-import portfolio from "./portfolio.png"
+import portfolio from "./portfolio.png";
+import kickwise from "./kickwise.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -74,6 +75,7 @@ export {
   todolist,
   tindog,
   portfolio,
+  kickwise,
   carrent,
   jobit,
   tripguide,
