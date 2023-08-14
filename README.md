@@ -1,2 +1,2 @@
 # Personal Website
-Feel free to drop by and say hello
+This mobile friendly website has been crafted utilizing **React** and **Tailwind CSS**, with the incorporation of **Three.js** for the implementation of 3D graphics. Explore the models by simply swiping through them.
