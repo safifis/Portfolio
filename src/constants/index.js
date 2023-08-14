@@ -197,15 +197,15 @@ import {
         "This mobile friendly website has been crafted utilizing React and Tailwind CSS, with the incorporation of Three.js for the implementation of 3D graphics. Explore the models by simply swiping through them. ",
       tags: [
         {
-          name: "nextjs",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Tailwind CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Three.js",
           color: "pink-text-gradient",
         },
       ],
@@ -219,15 +219,15 @@ import {
         "Full Stack application that allows users to create and manage their to do lists for various purposes. Note that the deployed website might take up to one minute to load. Database is recorded. Leave a message :)",
       tags: [
         {
-          name: "mongodb",
+          name: "MongoDB",
           color: "blue-text-gradient",
         },
         {
-          name: "render",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "EJS",
+          name: "Express.js",
           color: "pink-text-gradient",
         },
       ],
