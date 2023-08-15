@@ -36,6 +36,8 @@ import todolist from "./todolist.png";
 import tindog from "./tindog.png";
 import portfolio from "./portfolio.png";
 import kickwise from "./kickwise.png";
+import evade from "./evade.png";
+import androidapp from "./androidapp.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -76,6 +78,8 @@ export {
   tindog,
   portfolio,
   kickwise,
+  evade,
+  androidapp,
   carrent,
   jobit,
   tripguide,

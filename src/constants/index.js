@@ -28,6 +28,8 @@ import {
     tindog,
     portfolio,
     kickwise,
+    evade,
+    androidapp,
     carrent,
     jobit,
     tripguide,
@@ -257,7 +259,29 @@ import {
       source_code_link: "https://github.com/safifis/TinDog",
       deployed_link: "https://safifis.github.io/TinDog/",
     },
+    {
+      name: "EVADE",
+      description:
+        "A 3D video game made with C# and Unity. Checkout the trailer and gameplay video! Designed AI interactions between game objects using Finite State Machine.",
+      tags: [
         {
+          name: "C#",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GitHub",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: evade,
+      source_code_link: "https://github.com/safifis",
+      deployed_link: "https://drive.google.com/drive/folders/1r1fVowCOMVmSfF8hq8Qu4Tr0X6F6l9-h",
+    },
+    {
       name: "KickWise",
       description:
         "Checkout this article about data analysis on expected goals in soccar! Static Web page implemented with HTML, CSS, and BootStrap.",
@@ -277,6 +301,28 @@ import {
       ],
       image: kickwise,
       source_code_link: "https://github.com/safifis/Druid",
+      deployed_link: "https://safifis.github.io/Druid/",
+    },
+    {
+      name: "Job Compare",
+      description:
+        "This Android Application allows users to compare their job opportunities efficiently. Back-end is not deployed due to school policy.",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Android Studio",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JUnit",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: androidapp,
+      source_code_link: "https://github.com/safifis",
       deployed_link: "https://safifis.github.io/Druid/",
     },
   ];
