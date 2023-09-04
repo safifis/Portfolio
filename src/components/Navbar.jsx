@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, github, linkedin } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -34,33 +34,59 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Feifei Sun &nbsp;
-          </p>
-        </Link>
+        <div className='flex items-center gap-2'>
+          <Link
+            to='/'
+            className='flex items-center gap-2'
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+          >
+            <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+            <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+              Feifei Sun &nbsp;
+            </p>
+          </Link>
+        </div>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+        <div className='flex gap-10'>
+          <ul className='list-none hidden sm:flex flex-row gap-10 justify-end'>
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`${
+                  active === nav.title ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(nav.title)}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
+
+          <ul className='list-none hidden sm:flex flex-row gap-4 justify-end'>
+            <li> 
+              <a
+                href='https://github.com/safifis'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img src={github} alt='GitHub' className='w-6 h-6 cursor-pointer' />
+              </a>
             </li>
-          ))}
-        </ul>
+          
+            <li> 
+              <a
+                href='https://www.linkedin.com/in/feifei-sun/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img src={linkedin} alt='LinkedIn' className='w-6 h-6 cursor-pointer' />
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
