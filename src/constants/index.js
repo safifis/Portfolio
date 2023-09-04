@@ -35,6 +35,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    github,
+    linkedin,
   } from "../assets";
   
   export const navLinks = [
@@ -51,6 +53,21 @@ import {
       title: "Contact",
     },
   ];
+
+  export const contacts = [
+    {
+      id: "github",
+      title: "GitHub",
+      link: "https://github.com/safifis",
+      icon: github,
+    },
+    {
+      id: "linkedin",
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/feifei-sun/",
+      icon: linkedin,
+    }
+  ]
   
   const services = [
     {

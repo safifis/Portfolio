@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks, contacts } from "../constants";
 import { logo, menu, close, github, linkedin } from "../assets";
 
 const Navbar = () => {
@@ -66,25 +66,20 @@ const Navbar = () => {
           </ul>
 
           <ul className='list-none hidden sm:flex flex-row gap-4 justify-end'>
-            <li> 
-              <a
-                href='https://github.com/safifis'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img src={github} alt='GitHub' className='w-6 h-6 cursor-pointer' />
-              </a>
-            </li>
-          
-            <li> 
-              <a
-                href='https://www.linkedin.com/in/feifei-sun/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img src={linkedin} alt='LinkedIn' className='w-6 h-6 cursor-pointer' />
-              </a>
-            </li>
+            {
+              contacts.map((contact) => (
+                <li
+                key={contact.id}> 
+                  <a
+                    href= {contact.link}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img src={contact.icon} alt={contact.title} className='w-6 h-6 cursor-pointer' />
+                  </a>
+                </li>
+              ))
+            }
           </ul>
         </div>
 
