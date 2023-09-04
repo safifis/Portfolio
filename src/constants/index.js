@@ -145,7 +145,7 @@ import {
   
   const experiences = [
     {
-      title: "Software Developer Engineer Intern",
+      title: "Software Developer Intern",
       company_name: "EyeQue Corporation",
       icon: eyeque,
       iconBg: "#E6DEDD",
@@ -212,14 +212,6 @@ import {
       designation: "Bioinformatician",
       company: "Johns Hopkins University",
       image: "https://media.licdn.com/dms/image/C5103AQFus08Stx1_mA/profile-displayphoto-shrink_200_200/0/1535677477802?e=1697673600&v=beta&t=CRfaNnfOPdvjdvWMOXDSG59hZqXt-R51nfqQJ_OY9Oo",
-    },
-    {
-      testimonial:
-      "Future Testimonials",
-      name: "Future collaborators",
-      designation: "Someone",
-      company: "Company",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
