@@ -17,6 +17,7 @@ import {
     git,
     figma,
     docker,
+    eyeque,
     GFEA,
     gaTech,
     husky,
@@ -126,6 +127,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software Developer Engineer Intern",
+      company_name: "EyeQue Corporation",
+      icon: eyeque,
+      iconBg: "#E6DEDD",
+      date: "Aug 2023 - Present",
+      points: [
+        "Develop and implement REST APIs for a crucial web service, facilitating streamlined prescription writing and patient information recording by doctors, leading to enhanced efficiency.",
+        "Integrate the developed APIs with the company database, ensuring seamless data flow and accessibility.",
+        "Manage and analyze MySQL database containing millions of customer records and testing entries for EyeQue.",
+        "Develop protocols and implement advanced algorithms to identify and flag data anomalies, utilizing techniques such as k-means clustering, correlation analysis, and principle component analysis."
+      ],
+    },
     {
       title: "Georgia Institute of Technology",
       company_name: "MS in Computer Science",

@@ -24,6 +24,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import eyeque from "./company/eyeque.png"
 import GFEA from "./company/GFEA.jpg"
 import gaTech from "./company/gaTech.png"
 import husky from "./company/husky.png"
@@ -68,6 +69,7 @@ export {
   typescript,
   threejs,
   husky,
+  eyeque,
   GFEA,
   gaTech,
   meta,
