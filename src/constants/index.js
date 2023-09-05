@@ -25,6 +25,7 @@ import {
     starbucks,
     tesla,
     shopify,
+    threads,
     todolist,
     tindog,
     portfolio,
@@ -216,6 +217,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Threads Social Media",
+      description:
+        "This full stack social media app is developed using React to generate fast and user-friendly front-end, and Next.js to create modularized backend that supports server side rendering, leading to faster loading time. Utilized MongoDB as the database.",
+      tags: [
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: threads,
+      source_code_link: "https://github.com/safifis/Threads",
+      deployed_link: "https://threads-safifis.vercel.app/",
+    },
     {
       name: "3D Portfolio Website",
       description:

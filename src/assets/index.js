@@ -34,6 +34,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import threads from "./threads.png";
 import todolist from "./todolist.png";
 import tindog from "./tindog.png";
 import portfolio from "./portfolio.png";
@@ -78,6 +79,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  threads,
   todolist,
   tindog,
   portfolio,
