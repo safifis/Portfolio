@@ -152,10 +152,11 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2023 - Present",
       points: [
-        "Develop and implement REST APIs for a crucial web service, facilitating streamlined prescription writing and patient information recording by doctors, leading to enhanced efficiency.",
-        "Integrate the developed APIs with the company database, ensuring seamless data flow and accessibility.",
-        "Manage and analyze MySQL database containing millions of customer records and testing entries for EyeQue.",
-        "Develop protocols and implement advanced algorithms to identify and flag data anomalies, utilizing techniques such as k-means clustering, correlation analysis, and principle component analysis."
+        "Creating frontend and associated backend to create highly customized patient intake workflows that all new patients will use, representing over a hundred thousand users per year.",
+        "HTTP REST API implemented in Java with Spring Boot and hosted on AWS.",
+        "Front end uses JavaScript with React and Tailwind for CSS styling.",
+        "Output of intake workflows sends data to legacy scheduling and processing system that integrates withthe existing business while remaining HIPPA complian.",
+        "Responsible for managing & analyzing data stored in MySQL, representing millions of customer records."
       ],
     },
     {
