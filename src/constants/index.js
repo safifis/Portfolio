@@ -152,11 +152,12 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2023 - Present",
       points: [
-        "Creating frontend and associated backend to create highly customized patient intake workflows that all new patients will use, representing over a hundred thousand users per year.",
-        "HTTP REST API implemented in Java with Spring Boot and hosted on AWS.",
-        "Front end uses JavaScript with React and Tailwind for CSS styling.",
-        "Output of intake workflows sends data to legacy scheduling and processing system that integrates withthe existing business while remaining HIPPA complian.",
-        "Responsible for managing & analyzing data stored in MySQL, representing millions of customer records."
+        "Design and develop full stack web service for a highly customized patient intake workflows, facilitating streamlined prescription writing and patient information recording.",
+        "Saving 40 hours per week in manual entry and prepare the project to scale up for millions of users.",
+        "Improve the project scalability using reusable components through React.js and Tailwind CSS for styling.",
+        "Integrate HTTP REST API with existing system in Java with Spring Boot and hosted on AWS.",
+        "Output of intake workflows sends data to legacy scheduling and processing system that integrates with the existing business while remaining HIPPA compliant.",
+        "Responsible for managing & analyzing data stored in MySQL, representing millions of customer records"
       ],
     },
     {
@@ -166,6 +167,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2022 - (Expected) Dec 2024",
       points: [
+        "Member of Girls Who Code",
         "Achieved and maintained a perfect GPA, while also actively participating in collaborative projects with peers.",
         "Coursework: Data Structure & Algorithm, Object Oriented Programming, Human Computer Interact, Software Development Process, Information Security, Machine Learning",
         "Hobby: Tennis, Video Game, Boardgame"
@@ -185,15 +187,14 @@ import {
     },
     {
       title: "University of Washington",
-      company_name: "BS in Economics",
+      company_name: "BS in Economics, Entrepreneur minor",
       icon: husky,
       iconBg: "#E6DEDD",
       date: "Sep 2016 - Mar 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Started my own retail company in Seattle with peers selling Airpods.",
+        "Designed and hosted stock competition in DyVest Investment Club",
+        "Theatre Club, Boardgame Club"
       ],
     },
   ];
