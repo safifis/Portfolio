@@ -45,6 +45,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import zhanmo from "./photo/zhanmo.jpg";
+import zhening from "./photo/zhening.jpg";
+
 export {
   logo,
   backend,
@@ -89,4 +92,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  zhening,
+  zhanmo,
 };

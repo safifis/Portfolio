@@ -38,6 +38,8 @@ import {
     threejs,
     github,
     linkedin,
+    zhanmo,
+    zhening
   } from "../assets";
   
   export const navLinks = [
@@ -206,7 +208,7 @@ import {
       name: "Zhening Zhang",
       designation: "Data Scientist",
       company: "New York Life Insurance",
-      image: "https://media.licdn.com/dms/image/D5635AQHpPwzhiKc_BA/profile-framedphoto-shrink_200_200/0/1687993194997?e=1692320400&v=beta&t=CGrS580WDnJRpw3-H8HxmPpmvG4Biil213VwsQ3DsJc",
+      image: zhening,
     },
     {
       testimonial:
@@ -214,7 +216,7 @@ import {
       name: "Zhanmo Ni",
       designation: "Bioinformatician",
       company: "Johns Hopkins University",
-      image: "https://media.licdn.com/dms/image/C5103AQFus08Stx1_mA/profile-displayphoto-shrink_200_200/0/1535677477802?e=1697673600&v=beta&t=CRfaNnfOPdvjdvWMOXDSG59hZqXt-R51nfqQJ_OY9Oo",
+      image: zhanmo,
     },
   ];
   
