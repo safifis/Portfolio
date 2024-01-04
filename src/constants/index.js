@@ -17,6 +17,7 @@ import {
     git,
     figma,
     docker,
+    atlasnova,
     eyeque,
     GFEA,
     gaTech,
@@ -50,6 +51,10 @@ import {
     {
       id: "work",
       title: "Experience",
+    },
+    {
+      id: "project",
+      title: "Project",
     },
     {
       id: "contact",
@@ -149,6 +154,20 @@ import {
   const experiences = [
     {
       title: "Software Developer Intern",
+      company_name: "Atlas Nova AI",
+      icon: atlasnova,
+      iconBg: "#383E56",
+      date: "November 2023 - Present",
+      points: [
+        "Worked with a diverse team to develop a robust full stack web application, focusing on optimizing client workflows.",
+        "Utilized React.js and Tailwind CSS to create highly reusable components for a dynamic and responsive user interface.",
+        "Led the development of the server-side logic with Node.js and Express.js, focusing on efficient data processing.",
+        "Configured and maintained a DynamoDB database, optimizing data storage and retrieval processes for high-performance and reliability.",
+        "Implemented Docker to containerize the application, significantly improving deployment efficiency and ensuring consistent performance across different environments."
+      ],
+    },
+    {
+      title: "Software Developer Intern",
       company_name: "EyeQue Corporation",
       icon: eyeque,
       iconBg: "#E6DEDD",
@@ -194,8 +213,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2016 - Mar 2020",
       points: [
-        "Started my own retail company in Seattle with peers selling Airpods.",
-        "Designed and hosted stock competition in DyVest Investment Club",
+        "Started my own retail company in Seattle building brand and selling Airpod cases.",
+        "Designed and hosted stock competition in DyVest Investment Club.",
         "Theatre Club, Boardgame Club"
       ],
     },
