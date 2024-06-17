@@ -30,6 +30,7 @@ import {
     todolist,
     tindog,
     portfolio,
+    boardgame,
     kickwise,
     evade,
     androidapp,
@@ -283,6 +284,28 @@ import {
       image: portfolio,
       source_code_link: "https://github.com/safifis/Portfolio",
       deployed_link: "https://portfolio-z4ex.onrender.com/",
+    },
+    {
+      name: "Betrayal of House on the Hill",
+      description:
+        "This website displays the probability of Dice rolls in the Boardgame Betrayal of House on the Hill. The data comes from simulations of 1000 times per chart instead of pure statistical calculations.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: boardgame,
+      source_code_link: "https://github.com/safifis/Boardgame",
+      deployed_link: "https://boardgame-lebz.onrender.com/",
     },
     {
       name: "To Do List",

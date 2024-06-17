@@ -39,6 +39,7 @@ import threads from "./threads.png";
 import todolist from "./todolist.png";
 import tindog from "./tindog.png";
 import portfolio from "./portfolio.png";
+import boardgame from "./boardgame.png";
 import kickwise from "./kickwise.png";
 import evade from "./evade.png";
 import androidapp from "./androidapp.png";
@@ -88,6 +89,7 @@ export {
   todolist,
   tindog,
   portfolio,
+  boardgame,
   kickwise,
   evade,
   androidapp,
