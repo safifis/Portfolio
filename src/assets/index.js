@@ -26,6 +26,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import atlasnova from "./company/atlasnova.png"
+import chatham from "./company/chatham.jpg"
 import eyeque from "./company/eyeque.png"
 import GFEA from "./company/GFEA.jpg"
 import gaTech from "./company/gaTech.png"
@@ -36,6 +37,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import threads from "./threads.png";
+import dishtorecipe from "./dishtorecipe.jpg";
 import todolist from "./todolist.png";
 import tindog from "./tindog.png";
 import portfolio from "./portfolio.png";
@@ -78,6 +80,7 @@ export {
   threejs,
   husky,
   atlasnova,
+  chatham,
   eyeque,
   GFEA,
   gaTech,
@@ -86,6 +89,7 @@ export {
   starbucks,
   tesla,
   threads,
+  dishtorecipe,
   todolist,
   tindog,
   portfolio,
