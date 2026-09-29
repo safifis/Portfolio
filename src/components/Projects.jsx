@@ -1,114 +1,59 @@
-import React from "react";
 import Tilt from "react-parallax-tilt";
-import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github, webicon } from "../assets";
-import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
-const ProjectCard = ({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  source_code_link,
-  deployed_link,
-}) => {
-  return (
-    // <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+const ProjectCard = ({ name, description, tags, image, deployed_link }) => (
+  <Tilt className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full flex flex-col'>
+    <div className='relative w-full h-[230px]'>
+      {image ? (
+        <img src={image} alt={`${name} project`} className='w-full h-full object-cover rounded-2xl' />
+      ) : (
+        <div className='w-full h-full rounded-2xl bg-gradient-to-br from-violet-800 via-[#252044] to-[#151030] flex items-center justify-center p-6'>
+          <span className='text-white text-center text-[26px] font-bold'>{name}</span>
+        </div>
+      )}
+    </div>
+
+    <div className='mt-5 flex-1'>
+      <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+      <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+    </div>
+
+    <div className='mt-4 flex flex-wrap gap-2'>
+      {tags.map((tag) => (
+        <span key={`${name}-${tag}`} className='rounded-full bg-black-100 px-2 py-1 text-[13px] text-white-100'>
+          {tag}
+        </span>
+      ))}
+    </div>
+
+    {deployed_link && (
+      <a
+        href={deployed_link}
+        target='_blank'
+        rel='noopener noreferrer'
+        className='mt-5 self-start text-[#b794ff] font-semibold hover:text-white'
       >
-        <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
-          />
+        View project ↗
+      </a>
+    )}
+  </Tilt>
+);
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-            <div
-              onClick={() => window.open(deployed_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={webicon}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-          </div>
-        </div>
+const Projects = () => (
+  <>
+    <p className={styles.sectionSubText}>Selected work</p>
+    <h2 className={styles.sectionHeadText}>Projects.</h2>
+    <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+      Applications and systems spanning backend APIs, AI workflows, full-stack
+      development, and interactive experiences.
+    </p>
+    <div className='mt-12 flex flex-wrap gap-7'>
+      {projects.map((project) => <ProjectCard key={project.name} {...project} />)}
+    </div>
+  </>
+);
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-        </div>
-
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div>
-      </Tilt>
-    // </motion.div>
-  );
-};
-
-const Works = () => {
-  return (
-    <>
-      {/* <motion.div variants={textVariant()}> */}
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      {/* </motion.div> */}
-
-      <div className='w-full flex'>
-        {/* <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        > */}
-        <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
-        </p>
-          
-        {/* </motion.p> */}
-      </div>
-
-      <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
-    </>
-  );
-};
-
-export default SectionWrapper(Works, "project"); 
+export default SectionWrapper(Projects, "project");

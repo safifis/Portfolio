@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
@@ -50,8 +50,8 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className='flex gap-10'>
-          <ul className='list-none hidden sm:flex flex-row gap-10 justify-end'>
+        <div className='flex gap-6'>
+          <ul className='list-none hidden lg:flex flex-row gap-6 justify-end'>
             {navLinks.map((nav) => (
               <li
                 key={nav.id}
@@ -65,7 +65,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <ul className='list-none hidden sm:flex flex-row gap-4 justify-end'>
+          <ul className='list-none hidden lg:flex flex-row gap-4 justify-end'>
             {
               contacts.map((contact) => (
                 <li
@@ -83,7 +83,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='lg:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'

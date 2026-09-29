@@ -1,4 +1,3 @@
-import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -40,6 +39,7 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.company_name}
         </p>
+        <p className='text-[#aaa6c3] text-[13px] mt-1'>{experience.stack}</p>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>

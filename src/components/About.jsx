@@ -1,4 +1,3 @@
-import React from 'react'
 import Tilt from 'react-parallax-tilt'
 import { motion } from "framer-motion";
 
@@ -47,11 +46,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in
-        JavaScript and Java, and expertise in frameworks like React, Node,
-        Express, and Springboot. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I&apos;m a software engineer with an M.S. in Computer Science from Georgia
+        Tech. At Chatham Financial, I build production services and interfaces
+        for financial workflows, including an Azure market data system that cut
+        processing time from 8 seconds to 0.2 seconds. My work spans C#/.NET,
+        Java, React, cloud infrastructure, and AI-powered applications.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -39,7 +39,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Feifei Sun",
           from_email: form.email,
-          to_email: "feifeisun0503@gmail.com",
+          to_email: "feifeisun3@gmail.com",
           message: form.message,
         },
         'Gw6PTiUnZqroNpAUL'
@@ -74,6 +74,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <a href='mailto:feifeisun3@gmail.com' className='mt-4 inline-block text-[#b794ff] hover:text-white'>
+          feifeisun3@gmail.com
+        </a>
 
         <form
           ref={formRef}
